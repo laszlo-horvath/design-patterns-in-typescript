@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "design-pattern:factory": "ts-node ./design-patterns/01-factory.ts"
+    "design-pattern:factory": "ts-node ./design-patterns/01-factory.ts",
+    "design-pattern:singleton": "ts-node ./design-patterns/02-singleton.ts"
   },
   "keywords": [],
   "author": "",
