@@ -1,0 +1,18 @@
+{
+  "name": "design-patterns-in-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "design-pattern:factory": "ts-node ./design-patterns/01-factory.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "5.7.2"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2"
+  }
+}
