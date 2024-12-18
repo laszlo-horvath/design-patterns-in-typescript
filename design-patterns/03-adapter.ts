@@ -11,13 +11,13 @@ interface IPayPalPayment {
 // Third-party service implementations
 class StripeAPI implements IStripePayment {
   makePayment(amount: number, currency: string): void {
-      console.log(`Stripe: Processing $${amount} ${currency}`);
+    console.log(`Stripe: Processing $${amount} ${currency}`);
   }
 }
 
 class PayPalAPI implements IPayPalPayment {
   sendPayment(sum: number, curr: string): void {
-      console.log(`PayPal: Processing $${sum} ${curr}`);
+    console.log(`PayPal: Processing $${sum} ${curr}`);
   }
 }
 

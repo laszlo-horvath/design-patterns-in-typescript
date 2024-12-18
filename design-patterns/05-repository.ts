@@ -53,13 +53,13 @@ async function main() {
   console.log('Created User:', user);
 
   const userById = await userRepo.getById(1);
-  console.log('--- User By ID:', userById);
+  console.log('User By ID:', userById);
 
   const updatedUser = await userRepo.update(1, { name: "John Doe", email: "john.doe@example.com" });
-  console.log('--- Updated User:', updatedUser);
+  console.log('Updated User:', updatedUser);
 
   const userByIdAgain = await userRepo.getById(1);
-  console.log('--- User By ID Again:', userByIdAgain);
+  console.log('User By ID Again:', userByIdAgain);
 }
 
 main();
