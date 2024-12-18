@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "design-pattern:factory": "ts-node ./design-patterns/01-factory.ts",
-    "design-pattern:singleton": "ts-node ./design-patterns/02-singleton.ts"
+    "design-pattern:singleton": "ts-node ./design-patterns/02-singleton.ts",
+    "design-pattern:adapter": "ts-node ./design-patterns/03-adapter.ts"
   },
   "keywords": [],
   "author": "",
