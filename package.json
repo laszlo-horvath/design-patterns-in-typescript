@@ -5,7 +5,8 @@
   "scripts": {
     "design-pattern:factory": "ts-node ./design-patterns/01-factory.ts",
     "design-pattern:singleton": "ts-node ./design-patterns/02-singleton.ts",
-    "design-pattern:adapter": "ts-node ./design-patterns/03-adapter.ts"
+    "design-pattern:adapter": "ts-node ./design-patterns/03-adapter.ts",
+    "design-pattern:decorator": "ts-node ./design-patterns/04-decorator.ts"
   },
   "keywords": [],
   "author": "",
