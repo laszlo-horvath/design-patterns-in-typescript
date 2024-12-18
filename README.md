@@ -19,37 +19,44 @@ This repository contains practical examples of common design patterns implemente
 
 ## Available Patterns
 
-### 1. Factory Pattern
+### 1. Factory Pattern (Creational Pattern)
 Demonstrates object creation through a notification system, showing how to create different types of notifications (email, SMS, push) using a common interface.
 
 ```bash
   npm run design-pattern:factory
 ```
 
-### 2. Singleton Pattern
+### 2. Singleton Pattern (Creational Pattern)
 Shows how to ensure a single instance of a database connection is shared across the application.
 
 ```bash
   npm run design-pattern:singleton
 ```
 
-### 3. Adapter Pattern
+### 3. Adapter Pattern (Structural Pattern)
 Illustrates how to make incompatible interfaces work together using payment provider integration as an example.
 
 ```bash
   npm run design-pattern:adapter
 ```
 
-### 4. Decorator Pattern
+### 4. Decorator Pattern (Structural Pattern)
 Demonstrates how to add new behaviors to objects dynamically using logging and performance measurement examples.
 
 ```bash
   npm run design-pattern:decorator
 ```
 
-### 5. Repository Pattern
+### 5. Repository Pattern (Data Access Pattern)
 Shows how to abstract data access logic using a simple user management system.
 
 ```bash
   npm run design-pattern:repository
+```
+
+### 6. Observer Pattern (Behavioral Pattern)
+Shows how objects can notify other objects of state changes using a weather station example with multiple displays.
+
+```bash
+  npm run design-pattern:observer
 ```
