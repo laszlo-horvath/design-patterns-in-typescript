@@ -2,6 +2,21 @@
 
 This repository contains practical examples of common design patterns implemented in TypeScript. Each example is designed to be simple, understandable, and relevant to real-world web development scenarios.
 
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies
+
+```bash
+  npm install
+```
+
+3. Run any pattern example using the npm scripts
+
+```bash
+  npm run design-pattern:<pattern-name>
+```
+
 ## Available Patterns
 
 ### 1. Factory Pattern
@@ -37,19 +52,4 @@ Shows how to abstract data access logic using a simple user management system.
 
 ```bash
   npm run design-pattern:repository
-```
-
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies
-
-```bash
-  npm install
-```
-
-3. Run any pattern example using the npm scripts
-
-```bash
-  npm run design-pattern:<pattern-name>
 ```
